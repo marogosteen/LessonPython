@@ -55,3 +55,6 @@ while True:
 ### できた人は以下の条件も追加してみる．
 - 代金が足りない場合は，お釣りの計算に移行する．
 - お釣りが100円未満になるまで任意の回数購入できるようにする．
+
+[ヒント](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson2/hint_vending_machine.py)<br>
+[解答例](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson2/ans_vending_machine.py)
