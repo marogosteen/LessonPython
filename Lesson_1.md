@@ -239,8 +239,8 @@ else:
 |90点以上|S|
 
 以下にヒントと解答例を示す．（解答例は例であって解答ではないことに注意してほしい．）<br>
-ヒント
-解答
+[ヒント](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson1/hint_grades.py)<br>
+[解答例](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson1/ans_grades.py)
 
 ## 課題
 三角形，円形，台形の面積を求めるプログラムを作りなさい．
@@ -256,5 +256,6 @@ c.	台形
 3. メニューによる表示以外の選択がされた場合は，選択が間違っていることをユーザーに通知してプログラムを終える．
 
 以下にヒントと解答例を示す．<br>
-ヒント
-解答
+[ヒント](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson1/hint_surface.py)<br>
+[解答例](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson1/ans_surface.py)
+
