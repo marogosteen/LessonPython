@@ -11,7 +11,7 @@ with open("test_score.csv", "r") as f:
                 break
 
             score = []
-            for point in line[1:]:
+            for point in line:
                 score.append(int(point))
 
             scores.append(score)
