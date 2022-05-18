@@ -135,7 +135,7 @@ for line in nums:
 ```
 
 ## 課題
-1. [test_score.csv](https://github.com/marogosteen/LessonPython/blob/master/code_sample/data/test_score.csv)に５科目１０人分の試験の成績とIDがID，国語，算数，理科，社会，英語の順で記録されている．この成績が保存されたファイルをコピーし，このデータから１０人それぞれの合計点と平均点，さらに科目毎に合計点と平均点を求めてファイルに書き出しなさい．
+1. [test_score.csv](https://github.com/marogosteen/LessonPython/blob/master/code_sample/data/test_score.csv)に５科目１０人分の試験の成績が，国語，算数，理科，社会，英語の順で記録されている．この成績が保存されたファイルをコピーし，このデータから１０人それぞれの合計点と平均点，さらに科目毎に合計点と平均点を求めてファイルに書き出しなさい．
     - １０人それぞれの合計点と平均点は，test_score.csvの新しい列に追加すること．
     - 科目毎の合計点と平均点は，test_score.csvの新しい行に追加すること．
 
