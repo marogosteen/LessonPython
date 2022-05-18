@@ -1,20 +1,17 @@
 class_count = 5
 
 scores = []
-row = 0
 with open("test_score.csv", "r") as f:
     while True:
-        row = row + 1
         line = f.readline().strip().split(",")
-        if row != 1:
-            if line == [""]:
-                break
+        if line == [""]:
+            break
 
-            score = []
-            for point in line:
-                score.append(int(point))
+        score = []
+        for point in line:
+            score.append(int(point))
 
-            scores.append(score)
+        scores.append(score)
 
 people_count = len(scores)
 
