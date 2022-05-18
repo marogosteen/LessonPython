@@ -156,5 +156,5 @@ for line in nums:
 
 ```
 
-[ヒント](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson4/hint_kuku.py)<br>
-[解答例](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson4/ans_kuku.py)
+[ヒント](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson4/hint_calc_score.py)<br>
+[解答例](https://github.com/marogosteen/LessonPython/blob/master/code_sample/lesson4/ans_calc_score.py)
