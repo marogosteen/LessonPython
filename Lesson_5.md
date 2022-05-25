@@ -15,49 +15,36 @@ import matplotlib.pyplot as plt
 
 t = []
 s = []
+s2 = []
 for i in range(201):
     x = i * 0.01
     y = 2 * math.pi * x
     t.append(x)
     s.append(math.sin(y))
+    s2.append(math.sin(y) * 0.5)
 
 fig, ax = plt.subplots()
-ax.plot(t, s)
 
-ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-       title='About as simple as it gets, folks')
+ax.plot(t, s, label="case1", color="green")
+ax.scatter(t, s2, label="case2", color="purple")
+
+ax.set(
+    xlabel='time (s)',
+    ylabel='voltage (mV)',
+    title='kaigan',
+    xlim=[0, 2.25],
+    ylim=[-1, 1]
+)
 ax.grid()
+ax.legend()
 
 fig.savefig("test.png")
 
 ```
 
 ### scatter(散布図)
-plotで使用したソースコードを散布図にする．
-
-```
-import math
-
-import matplotlib.pyplot as plt
-
-t = []
-s = []
-for i in range(201):
-    x = i * 0.01
-    y = 2 * math.pi * x
-    t.append(x)
-    s.append(math.sin(y))
-
-fig, ax = plt.subplots()
-ax.scatter(t, s)
-
-ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-       title='About as simple as it gets, folks')
-ax.grid()
-
-fig.savefig("test.png")
-
-```
+plotで使用したソースコードを散布図にする．<br>
+`ax.plot()`を`ax.scatter()`に変えると散布図になる．
 
 ## 練習問題
-アメダスより9/3から9/5までの神戸空港の風速を取得し，風速の折れ線グラフを画像ファイル（jpg）として保存せよ．
+アメダスより2018/9/3から2018/9/5までの神戸空港の風速を取得し，風速の折れ線グラフを画像ファイル（jpg）として保存せよ．
